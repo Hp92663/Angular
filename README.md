@@ -3,9 +3,6 @@
 
 ![Logo](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)
 
-### Angular CLI 
-Install Angular CLI in globally
-
 ## Installation
 
 Install Angular CLI globally
