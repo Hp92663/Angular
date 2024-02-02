@@ -1,5 +1,7 @@
 
-# Angular
+
+
+<<div style="align-item:center">![Logo](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)</div>
 
 ### Angular CLI 
 Install Angular CLI in globally
@@ -12,7 +14,7 @@ Install Angular CLI globally
   npm install -g @angular/cli
 ```
 
-Install my-project with npm
+Install my-project
 
 ```bash
   ng new my-project --no-standalone --no-strict
@@ -25,8 +27,32 @@ Run project
   ng serve
 ```
 
-Create new component
+Create new `component`
 
 ```bash
   ng generate component <component-name>
+```
+
+Create new `class`
+
+```bash
+  ng generate class <class-name>
+```
+
+Create new `service`
+
+```bash
+  ng generate service <service-name>
+```
+
+Create new `component` with `inline-template`
+
+```bash
+  ng generate component <component-name> --inline-template
+```
+
+Create new `component` with `inline-style`
+
+```bash
+  ng generate component <component-name> --inline-style
 ```
