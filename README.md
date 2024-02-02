@@ -1,7 +1,7 @@
 
 
 
-<<div style="align-item:center">![Logo](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)</div>
+![Logo](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)
 
 ### Angular CLI 
 Install Angular CLI in globally
