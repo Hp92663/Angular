@@ -66,7 +66,7 @@ Create new `component` with `inline-style`
 
 * It can include components, services, pipes, route, API call etc.
 
-* Whenever you can creating new component in a module. It can automatically `declare` the component name in `example.module.ts`. file 
+* Whenever you can creating new component inside module. It can automatically `declare` the component name in `example.module.ts`. file 
 
 * When component can use in any other component so that first of all `export` the component in  `example.module.ts`.
 
