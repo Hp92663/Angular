@@ -68,7 +68,7 @@ Create new `component` with `inline-style`
 
 * Whenever you can creating new component inside module. It can automatically `declare` the component name in `example.module.ts`. file 
 
-* When component can use in any other component so that first of all `export` the component in  `example.module.ts`.
+* When component can use if any other component so that first of all `export` the component in  `example.module.ts`.
 
 
 
