@@ -7,6 +7,8 @@
 
 Install Angular CLI globally
 
+> [!IMPORTANT]
+
 ```bash
   npm install -g @angular/cli
 ```
@@ -72,7 +74,7 @@ Create new `component` with `inline-style`
 
 
 
-```bash
+```javascript
   exports : [
     ExampleComponent
   ]
@@ -86,7 +88,8 @@ Create new `component` with `inline-style`
 
 `app.module.ts`
 
-```bash
+```javascript
+
   addTwo(name)
   {
     alert(name)
@@ -94,6 +97,39 @@ Create new `component` with `inline-style`
 ```
 `app.template.html`
 
-```bash
+```javascript
   <button (click)="addTwo("Hiren")>submit</button>
 ```
+
+* Other Events
+ > keyup
+ > keydown
+ > blur
+ > input
+
+ * Mouse Event
+ > mouseleave
+ > mouseover
+
+
+
+
+
+
+
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
