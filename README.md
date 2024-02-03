@@ -60,15 +60,15 @@ Create new `component` with `inline-style`
   ng generate component <component-name> --inline-style
 ```
 
-## module
+## 01_module
 
 * module is a feature of a 
 
 * It can include components, services, pipes, route, API call etc.
 
-* Whenever you can creating new component inside module. It can automatically `declare` the component name in `example.module.ts`. file 
+* Whenever you can creating new component in a module. It can automatically `declare` the component name in `example.module.ts`. file 
 
-* When component can use if any other component so that first of all `export` the component in  `example.module.ts`.
+* When component can use in any other component so that first of all `export` the component in  `example.module.ts`.
 
 
 
@@ -79,3 +79,21 @@ Create new `component` with `inline-style`
 ```
 
 * when we can use component in any another component that can define/declare using  `selector`
+
+## 02_data binding
+
+### Event binding
+
+`app.module.ts`
+
+```bash
+  addTwo(name)
+  {
+    alert(name)
+  }
+```
+`app.template.html`
+
+```bash
+  <button (click)="addTwo("Hiren")>submit</button>
+```
