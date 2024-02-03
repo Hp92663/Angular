@@ -7,8 +7,6 @@
 
 Install Angular CLI globally
 
-> [!IMPORTANT]
-
 ```bash
   npm install -g @angular/cli
 ```
@@ -74,7 +72,7 @@ Create new `component` with `inline-style`
 
 
 
-```javascript
+```bash
   exports : [
     ExampleComponent
   ]
@@ -89,7 +87,6 @@ Create new `component` with `inline-style`
 `app.module.ts`
 
 ```javascript
-
   addTwo(name)
   {
     alert(name)
@@ -102,24 +99,27 @@ Create new `component` with `inline-style`
 ```
 
 * Other Events
- > keyup
- > keydown
- > blur
- > input
-
- * Mouse Event
- > mouseleave
- > mouseover
+  1. keyup
+  1. keydown
+  1. blur
+  1. input
 
 
 
+ 
+ 
+  * Mouse Event
+   1. mouseleave
+   1. mouseover
 
 
 
 
 
+## alerts
 
-> [!NOTE]
+
+ > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
 > [!TIP]
@@ -133,3 +133,13 @@ Create new `component` with `inline-style`
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+## 03_components
+
+** logic + view/UI (HTML/CSS) = component **
+
+Decorators
+
+1.
+1.
+1.
+1.
